@@ -43,6 +43,7 @@ import androidx.room.Dao
 import androidx.room.Room
 import com.example.calcapp.ui.theme.CalcAppTheme
 
+//Calculator App
 class MainActivity : ComponentActivity() {
     private val db by lazy{
         Room.databaseBuilder(
